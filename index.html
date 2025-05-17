@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mel Joy M. Abrogar - Curriculum Vitae</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e1f5fe, #ffffff);
+      color: #333;
+    }
+    a {
+      color: #006064;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .container {
+      max-width: 950px;
+      margin: 50px auto;
+      background: #ffffffdd;
+      border-radius: 20px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+      padding: 50px;
+      transition: transform 0.3s ease;
+    }
+    .container:hover {
+      transform: scale(1.005);
+    }
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #006064;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      border-bottom: 2px dashed #0097a7;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+    .photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+      object-fit: cover;
+      border: 3px solid #006064;
+      margin-right: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    .info p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+    .print-button {
+      text-align: right;
+      margin-top: -30px;
+      margin-bottom: 20px;
+    }
+    .print-button button {
+      background-color: #006064;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+    .print-button button:hover {
+      background-color: #004d40;
+    }
+    .section {
+      margin-bottom: 35px;
+    }
+    .section-title {
+      font-size: 22px;
+      color: #004d40;
+      border-left: 6px solid #0097a7;
+      padding-left: 12px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      position: relative;
+    }
+    .section-title::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 50px;
+      height: 2px;
+      background: #0097a7;
+    }
+    .label {
+      font-weight: bold;
+      color: #006064;
+    }
+    .edu-level {
+      font-weight: bold;
+      color: #00796b;
+      margin-top: 12px;
+    }
+    .social-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 10px;
+      margin-right: 10px;
+      transition: background-color 0.3s ease;
+    }
+    .facebook-button {
+      background-color: #3b5998;
+    }
+    .facebook-button:hover {
+      background-color: #2d4373;
+    }
+    .instagram-button {
+      background-color: #e1306c;
+    }
+    .instagram-button:hover {
+      background-color: #c2185b;
+    }
+    .social-button i {
+      font-size: 16px;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .photo {
+        margin: 0 0 20px 0;
+      }
+      .print-button {
+        text-align: center;
+        margin-top: 10px;
+      }
+      .social-button {
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="print-button">
+      <button onclick="window.print()">Download as PDF</button>
+    </div>
+    <h1>Curriculum Vitae</h1>
+    <div class="header">
+      <img src="Myprof.jpg" alt="Mel Joy Abrogar" class="photo" />
+      <div class="info">
+        <p><strong>MEL JOY M. ABROGAR</strong></p>
+        <p>Purok Matatag 2, Brgy. Panacan 2, Narra, Palawan</p>
+        <p>Mobile #: <a href="tel:09456927142">0945-692-7142</a></p>
+        <p>Email: <a href="mailto:2022100001n@psu.palawan.edu.ph">2022100001n@psu.palawan.edu.ph</a></p>
+        <a href="https://www.instagram.com/abrogarmeljoy1" target="_blank" class="social-button instagram-button">
+          <i class="fab fa-instagram"></i> @abrogarmeljoy1
+        </a>
+        <a href="https://www.facebook.com/meljoy.abrogar" target="_blank" class="social-button facebook-button">
+          <i class="fab fa-facebook-f"></i> Visit my Facebook
+        </a>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">Personal Data</div>
+      <p><span class="label">Age:</span> 20</p>
+      <p><span class="label">Sex:</span> Male</p>
+      <p><span class="label">Birthday:</span> October 26, 2004</p>
+      <p><span class="label">Height:</span> 5'7"</p>
+      <p><span class="label">Weight:</span> 65 kg</p>
+      <p><span class="label">Religion:</span> Catholic</p>
+      <p><span class="label">Nationality:</span> Filipino</p>
+      <p><span class="label">Parents:</span> Milboy F. Abrogar and Maryjane M. Abrogar</p>
+    </div>
+    <div class="section">
+      <div class="section-title">Educational Background</div>
+      <p class="edu-level">Tertiary</p>
+      <p>Palawan State University</p>
+      <p>NIA-MBBRIS Compound, Narra, Palawan</p>
+      <p>Bachelor of Science in Computer Science</p>
+      <p class="edu-level">Senior High</p>
+      <p>Riotuba National High School</p>
+      <p>Riotuba, Bataraza, Palawan</p>
+      <p class="edu-level">Junior High</p>
+      <p>Amando Carlos Lahoz National High School</p>
+      <p>Culandanum, Bataraza, Palawan</p>
+      <p class="edu-level">Elementary</p>
+      <p>Panas Elementary School</p>
+      <p>Panas, Culandanum, Bataraza, Palawan</p>
+    </div>
+    <div class="section">
+      <div class="section-title">Career Objective</div>
+      <p>To obtain a challenging position in a reputable organization where I can contribute my skills, grow professionally, and gain hands-on experience in the field of Computer Science.</p>
+    </div>
+    <div class="section">
+      <div class="section-title">Skills</div>
+      <ul>
+        <li>Programming: Python, Java, HTML/CSS</li>
+        <li>Database Management: MySQL</li>
+        <li>Basic Networking</li>
+        <li>Team Collaboration and Problem-Solving</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
